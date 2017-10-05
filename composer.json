@@ -1,0 +1,19 @@
+{
+  "name": "docfalcon/docfalcon-sdk",
+  "description": "DocFalcon SDK for PHP",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "stable",
+  "require": {},
+  "authors": [
+    { "name": "Diego Ferri", "email": "diego.ferri@looptribe.com" },
+    { "name": "Claudio Gandelli", "email": "claudio.gandelli@looptribe.com" },
+    { "name": "Andrea Ghidini", "email": "andrea.ghidini@looptribe.com"}
+  ],
+  "keywords": [
+    "docfalcon",
+    "pdf",
+    "render"
+  ],
+  "homepage": "https://github.com/docfalcon/docfalcon-sdk-php",
+}
