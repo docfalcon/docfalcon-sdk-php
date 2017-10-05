@@ -5,7 +5,8 @@
   "license": "BSD-3-Clause",
   "minimum-stability": "stable",
   "require": {
-    "php": ">=5.5.9"
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "^6.3"
   },
   "authors": [
     { "name": "Diego Ferri", "email": "diego.ferri@looptribe.com" },
