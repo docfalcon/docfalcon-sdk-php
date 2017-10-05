@@ -4,7 +4,9 @@
   "type": "library",
   "license": "BSD-3-Clause",
   "minimum-stability": "stable",
-  "require": {},
+  "require": {
+    "php": ">=5.5.9"
+  },
   "authors": [
     { "name": "Diego Ferri", "email": "diego.ferri@looptribe.com" },
     { "name": "Claudio Gandelli", "email": "claudio.gandelli@looptribe.com" },
@@ -16,4 +18,9 @@
     "render"
   ],
   "homepage": "https://github.com/docfalcon/docfalcon-sdk-php",
+  "config": {
+    "platform": {
+      "php": "5.5.9"
+    }
+  }
 }
