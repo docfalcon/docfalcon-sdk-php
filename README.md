@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/docfalcon/docfalcon-sdk-php.svg?branch=master)](https://travis-ci.org/docfalcon/docfalcon-sdk-php)
 [![Coverage Status](https://coveralls.io/repos/github/docfalcon/docfalcon-sdk-php/badge.svg?branch=master)](https://coveralls.io/github/docfalcon/docfalcon-sdk-php?branch=master)
-[![Packagist version](https://poser.pugx.org/docfalcon/docfalcon-sdk/version)](https://packagist.org/docfalcon/docfalcon-sdk/phpunit)
+[![Packagist version](https://poser.pugx.org/docfalcon/docfalcon-sdk/version)](https://packagist.org/packages/docfalcon/docfalcon-sdk)
 
 ## Introduction
 
