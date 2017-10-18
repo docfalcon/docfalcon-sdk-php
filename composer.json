@@ -27,5 +27,8 @@
   },
   "autoload": {
     "psr-4": {"DocFalcon\\": "src/"}
+  },
+  "scripts": {
+    "test": "php vendor/bin/phpunit --colors=always --coverage-html=coverage --coverage-text"
   }
 }
