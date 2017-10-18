@@ -23,5 +23,8 @@
     "platform": {
       "php": "5.5.9"
     }
+  },
+  "autoload": {
+    "psr-4": {"DocFalcon\\": "src/"}
   }
 }
