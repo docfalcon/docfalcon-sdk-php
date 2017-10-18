@@ -1,5 +1,8 @@
-# docfalcon-sdk-php
-DocFalcon SDK for PHP
+# DocFalcon SDK for PHP
+
+[![Build Status](https://travis-ci.org/docfalcon/docfalcon-sdk-php.svg?branch=master)](https://travis-ci.org/docfalcon/docfalcon-sdk-php)
+[![Coverage Status](https://coveralls.io/repos/github/docfalcon/docfalcon-sdk-php/badge.svg?branch=master)](https://coveralls.io/github/docfalcon/docfalcon-sdk-php?branch=master)
+[![Packagist version](https://poser.pugx.org/docfalcon/docfalcon-sdk/version)](https://packagist.org/docfalcon/docfalcon-sdk/phpunit)
 
 ## Introduction
 
@@ -10,7 +13,7 @@ We welcome [feedback and issues](https://github.com/docfalcon/docfalcon-sdk-php/
 ## Installation
 
 ```
-TODO
+composer require docfalcon/docfalcon-sdk
 ```
 
 ## Usage
@@ -21,8 +24,6 @@ This library is a very simple wrapper around an http client.
 ### PDF Generation
 
 ```php
-<?php
-
 $businessCard = json_decode(file_get_contents('./samples/business_card.json'));
 
 $client = new \GuzzleHttp\Client();
