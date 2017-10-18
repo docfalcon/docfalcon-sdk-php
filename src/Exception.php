@@ -2,7 +2,7 @@
 
 namespace DocFalcon;
 
-class Error extends \Error
+class Exception extends \Exception
 {
 
 }

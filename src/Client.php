@@ -32,10 +32,10 @@ class Client implements ApiInterface
     public function generate($document, $path)
     {
         if (null == $document) {
-            throw new Error('Missing document');
+            throw new Exception('Missing document');
         }
         if (null == $path) {
-            throw new Error('Missing pdf save path');
+            throw new Exception('Missing pdf save path');
         }
         $url = self::API_URL  . '?' . http_build_query(array('apikey' => $this->apikey));
         try
@@ -47,14 +47,14 @@ class Client implements ApiInterface
             ));
             if ($response->getStatusCode() != 200) {
                 $body = json_decode($response->getBody());
-                throw new Error($body->message);
+                throw new Exception($body->message);
             }
             file_put_contents($path, $response->getBody());
             return $response;
         }
         catch (TransferException $e)
         {
-            throw new Error($e->getMessage());
+            throw new Exception($e->getMessage());
         }
     }
 }
